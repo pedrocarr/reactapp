@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Navbar, NavbarBrand } from 'reactstrap';
 import Menu from './components/menu';
-import { PLACES } from './shared/places';
+import { REASONS } from './shared/reasons';
 import Greet from './components/greet';
 
 class App extends React.Component {					
@@ -12,7 +12,7 @@ class App extends React.Component {
 		super(props);
 		
 		this.state = {
-			places: PLACES
+			reasons: reason
 		};
 	}
 	
@@ -25,8 +25,8 @@ class App extends React.Component {
 					</div>
 				</Navbar>
 				<Greet />
-				<h1>Famous Places of India</h1>
-				<Menu places={this.state.places} />
+				<h1>Reasons to choose PayPal</h1>
+				<Menu reasons={this.state.reasons} />
 			</div>
 		);
 	}

@@ -1,4 +1,4 @@
-export const PLACES = 
+export const REASONS = 
 	[
 			{
 				id: 0,
