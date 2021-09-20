@@ -19,7 +19,7 @@ class Greet extends React.Component {
 		return(
 			<div>
 				<h1>Hello {this.state.val} World</h1>
-				<button type="button" onClick={this.changeValue}>Change value</button>
+				<button type="button" class="btn btn-primary" onClick={this.changeValue}>Change value</button>
 			</div>
 		);
 	}

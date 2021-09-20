@@ -21,7 +21,7 @@ class App extends React.Component {
 			<div className='App'>
 				<Navbar color="primary">
 					<div className="container" id="brand">
-						<NavbarBrand>Incredible India</NavbarBrand>
+						<NavbarBrand>PayPal Job Application</NavbarBrand>
 					</div>
 				</Navbar>
 				<Greet />
