@@ -12,7 +12,7 @@ class App extends React.Component {
 		super(props);
 		
 		this.state = {
-			reasons: reason
+			reasons: REASONS
 		};
 	}
 	
