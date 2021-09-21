@@ -21,7 +21,7 @@
   },
   "scripts": {
     "start": "node server/server.js",
-    "build-production": "react-scripts build --prod",
+    "build-production": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
