@@ -5,3 +5,18 @@
 #brand{
 	color: white;
 }
+
+.social-container {
+  background: #eee;
+  padding: 5px 5px;
+}
+
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.Github {
+  color: black;
+}

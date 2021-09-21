@@ -5,7 +5,7 @@ import { Navbar, NavbarBrand } from 'reactstrap';
 import Menu from './components/menu';
 import { REASONS } from './shared/reasons';
 import Greet from './components/greet';
-import Footer from './components/Footer';
+import SocialFollow from "./SocialFollow";
 
 class App extends React.Component {					
   
@@ -23,13 +23,13 @@ class App extends React.Component {
 				<Navbar color="primary">
 					<div className="container" id="brand">
 						<NavbarBrand>PayPal Job Application</NavbarBrand>
+						<SocialFollow></SocialFollow>
 						<NavbarBrand>Made by Pedro Carvalho</NavbarBrand>
 					</div>
 				</Navbar>
 				<Greet />
 				<h1>Reasons to choose PayPal</h1>
 				<Menu reasons={this.state.reasons} />
-				<Footer />
 			</div>
 		);
 	}
