@@ -2,7 +2,8 @@
   "name": "reactapp",
   "version": "0.1.0",
   "engines": {
-    "node": "14.0.0"
+    "node": "14.0.0",
+    "npm": "7.23.0"
   },
   "private": true,
   "dependencies": {
