@@ -14,17 +14,11 @@ class Menu extends React.Component {
 		const menu = this.props.reasons.map((reason) => {
 			return(
 				<div key={reason.id} id="unit" className="col-12 mt-5">					
-					<Media tag="li">
-						<Media left>
-							<Media object src={reason.image} alt={reason.name} />
-						</Media>
 						<Media body className="ml-3">
 							<Media heading><strong>{reason.name}</strong></Media>
-							<div><strong>Location Type - </strong>{reason.category}</div>
 							<div><strong>Info - </strong>{reason.description}</div>
 							<div>Info source - {reason.source}</div>
 						</Media>
-					</Media>
 				</div>
 			);
 		});

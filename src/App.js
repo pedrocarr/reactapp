@@ -5,6 +5,7 @@ import { Navbar, NavbarBrand } from 'reactstrap';
 import Menu from './components/menu';
 import { REASONS } from './shared/reasons';
 import Greet from './components/greet';
+import { STRENGTHS } from './shared/strengths';
 
 class App extends React.Component {					
   
@@ -12,7 +13,8 @@ class App extends React.Component {
 		super(props);
 		
 		this.state = {
-			reasons: REASONS
+			reasons: REASONS,
+			strengths: STRENGTHS
 		};
 	}
 	
